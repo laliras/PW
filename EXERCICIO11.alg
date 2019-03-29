@@ -1,0 +1,16 @@
+algoritmo "semnome"
+// Função :
+// Autor :
+// Data : 24/03/2019
+// Seção de Declarações 
+var
+MEDIDAC, METROS, MILIME, DECI: REAL
+inicio
+// Seção de Comandos
+ESCREVAL ("DIGITE A MEDIDA EM CENTIMETROS")
+LEIA (MEDIDAC)
+METROS<-MEDIDAC/100
+MILIME<-MEDIDAC*10
+DECI<-MEDIDAC/10
+ESCREVAL ("O VALOR DE SUA MEDIDA EM METROS É: " , METROS, " EM MILIMETROS É: " ,MILIME, " EM DECIMETROS É: " , DECI)
+fimalgoritmo
